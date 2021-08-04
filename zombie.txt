@@ -1,0 +1,21 @@
+Video by Nathan Cowley from Pexels
+Photo by enfantnocta from Pexels
+google fonts poppins: <style>@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');</style>
+    - exl 200
+    - l 300
+    - r 400
+    - m 500
+    - sb 600
+    - b 700
+    - exb 800
+
+https://www.youtube.com/watch?v=ZRAStnf4AMA
+https://www.pinata.cloud/
+https://www.youtube.com/watch?v=drTxYpOqqFo
+
+# installing IPFS In Linux (kali linux, etc) using commandline
+wget https://dist.ipfs.io/go-ipfs/v0.9.0/go-ipfs_v0.9.0_linux-amd64.tar.gz
+tar -xvzf go-ipfs_v0.9.0_linux-amd64.tar.gz
+cd go-ipfs
+sudo bash install.sh
+ipfs --version

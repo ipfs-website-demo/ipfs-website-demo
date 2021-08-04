@@ -1,0 +1,98 @@
+@font-face { font-family: 'Poppins'; font-style: normal; font-weight: 200; src: url('assets/fonts/poppins-v15-latin-200.eot'); src: url('assets/fonts/poppins-v15-latin-200.eot?#iefix') format('embedded-opentype'), url('assets/fonts/poppins-v15-latin-200.woff2') format('woff2'), url('assets/fonts/poppins-v15-latin-200.woff') format('woff'), url('assets/fonts/poppins-v15-latin-200.ttf') format('truetype'), url('assets/fonts/poppins-v15-latin-200.svg#Poppins') format('svg'); }
+
+body {
+    font-family: 'Poppins';
+    margin: 0;
+  }
+
+  .menu {
+    position: relative;
+    top: 1;
+    right: 0;
+    left: 0;
+    width: 300px;
+    height: 100%;
+    display: flex;
+    align-items: top;
+    justify-content: t;
+  }
+
+  .menu ul {
+      position: relative;
+      list-style: none;
+  }
+
+  .menu ul li a {
+      text-decoration: none;
+      font-size: 24px;
+      color: black;
+  }
+
+  .menu ul li a:hover {
+      color: var(--overlay-color);
+
+  }
+    
+  html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  .column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+  }
+  
+  .about-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #474e5d;
+    color: white;
+  }
+  
+  .container {
+    padding: 0 16px;
+  }
+  
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .title {
+    color: grey;
+  }
+  
+  .button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .button:hover {
+    background-color: #555;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
